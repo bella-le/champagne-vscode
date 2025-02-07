@@ -2,7 +2,7 @@
     "name": "champagne",
     "displayName": "Champagne: A pink theme",
     "description": "A dark theme with pink accents",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "bella-le",
     "engines": {
         "vscode": "^1.75.0"

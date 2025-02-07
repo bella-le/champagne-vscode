@@ -9,7 +9,7 @@ There aren't enough nice pink themes anywhere, so here's a sleek and elegant VS 
 ## Installation
 
 1. Open **Extensions** in VS Code (`Cmd + Shift + X` / `Ctrl + Shift + X`).
-2. Search for `Champagne Theme`.
+2. Search for `Champagne`.
 3. Click **Install**.
 4. Go to **Preferences > Color Theme** and select `Champagne`.
 
