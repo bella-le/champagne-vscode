@@ -209,7 +209,8 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#B4D9EE"
+        "foreground": "#B4D9EE",
+        "fontStyle": ""
       }
     },
     {
@@ -242,6 +243,18 @@
       "settings": {
         "foreground": "#C5B3E6",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.arguments",
+        "meta.function-call.arguments.python",
+        "meta.item-access.python",
+        "meta.indexed-name.python"
+      ],
+      "settings": {
+        "foreground": "#E4D8DD",
+        "fontStyle": ""
       }
     },
     {
