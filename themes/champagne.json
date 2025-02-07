@@ -1,0 +1,95 @@
+{
+    "name": "Bella Rose",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#1C1619",
+      "editor.foreground": "#E4D8DD",
+      "activityBar.background": "#241D20",
+      "sideBar.background": "#1C1619",
+      "sideBar.foreground": "#E4D8DD",
+      "titleBar.activeBackground": "#241D20",
+      "statusBar.background": "#241D20",
+      "tab.activeBackground": "#2D2326",
+      "tab.inactiveBackground": "#1C1619",
+      "input.background": "#2D2326",
+      "focusBorder": "#CE95A8",
+      
+      "editor.lineHighlightBackground": "#2D2326",
+      "editor.selectionBackground": "#CE95A850",
+      "editor.inactiveSelectionBackground": "#CE95A830",
+      "editor.wordHighlightBackground": "#B4D9EE40",
+      "editor.findMatchBackground": "#F2D4A770",
+      "editor.findMatchHighlightBackground": "#F2D4A740",
+      "editor.foldBackground": "#C5B3E620",
+      
+      "editorBracketHighlight.foreground1": "#CE95A8",
+      "editorBracketHighlight.foreground2": "#B4D9EE",
+      "editorBracketHighlight.foreground3": "#B8E6D0",
+      "editorBracketHighlight.foreground4": "#F2D4A7",
+      "editorBracketHighlight.foreground5": "#C5B3E6",
+      "editorBracketHighlight.foreground6": "#E6B3CC",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    },
+    "tokenColors": [
+      {
+        "scope": ["string"],
+        "settings": {
+          "foreground": "#B4D9EE"
+        }
+      },
+      {
+        "scope": ["keyword"],
+        "settings": {
+          "foreground": "#CE95A8"
+        }
+      },
+      {
+        "scope": ["variable"],
+        "settings": {
+          "foreground": "#B8E6D0"
+        }
+      },
+      {
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#756268"
+        }
+      },
+      {
+        "scope": ["entity.name.function"],
+        "settings": {
+          "foreground": "#E8BCC8"
+        }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#F2D4A7"
+        }
+      },
+      {
+        "scope": ["support.type"],
+        "settings": {
+          "foreground": "#C5B3E6"
+        }
+      },
+      {
+        "scope": ["storage.type"],
+        "settings": {
+          "foreground": "#D4A5B5"
+        }
+      },
+      {
+        "scope": ["entity.name.type"],
+        "settings": {
+          "foreground": "#B4E6E6"
+        }
+      },
+      {
+        "scope": ["support.class"],
+        "settings": {
+          "foreground": "#E6B3CC"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+    "name": "champagne",
+    "displayName": "Champagne",
+    "description": "A dark theme with pink accents",
+    "version": "0.0.1",
+    "publisher": "bella-le",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Champagne",
+                "uiTheme": "vs-dark",
+                "path": "./themes/champagne.json"
+            }
+        ]
+    }
+}
