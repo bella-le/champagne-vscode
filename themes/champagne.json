@@ -1,6 +1,40 @@
 {
   "name": "champagne",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "*.declaration": {
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "*.readonly": {
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "*.local": {
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "variable": "#E4D8DD",
+    "variable.declaration": "#E4D8DD",
+    "variable.readonly": "#E4D8DD",
+    "variable.local": "#E4D8DD",
+    "function": {
+      "foreground": "#C5B3E6",
+      "fontStyle": "italic"
+    },
+    "function.declaration": {
+      "foreground": "#C5B3E6",
+      "fontStyle": "italic"
+    },
+    "function.local": {
+      "foreground": "#C5B3E6",
+      "fontStyle": "italic"
+    }
+  },
   "colors": {
     "textLink.foreground": "#B4D9EE",
     "textLink.activeForeground": "#CE95A8",
@@ -170,6 +204,7 @@
     "editorBracketHighlight.foreground6": "#CE95A8",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
+
   "tokenColors": [
     {
       "scope": ["string"],
@@ -184,21 +219,104 @@
       }
     },
     {
-      "scope": ["variable"],
+      "name": "JSX Prop Names",
+      "scope": ["entity.other.attribute-name.tsx"],
       "settings": {
-        "foreground": "#B8E6D0"
+        "foreground": "#F2D4A7"
       }
     },
     {
-      "scope": ["comment"],
+      "name": "Functions and Methods",
+      "scope": [
+        "entity.name.function",
+        "entity.name.function.tsx",
+        "meta.function-call",
+        "meta.function.expression",
+        "meta.method.declaration",
+        "meta.definition.method",
+        "meta.definition.function",
+        "meta.function-call.tsx",
+        "support.function",
+        "variable.function"
+      ],
       "settings": {
-        "foreground": "#756268"
+        "foreground": "#C5B3E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Support Types",
+      "scope": [
+        "support.type",
+        "support.type.primitive.tsx",
+        "support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#B8E6D0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function Variables in JSX",
+      "scope": [
+        "meta.embedded.expression.tsx meta.tag.attributes.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#C5B3E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Regular Variables and Props",
+      "scope": [
+        "variable.other.readwrite.tsx",
+        "variable.other.constant.tsx",
+        "meta.embedded.expression.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#E4D8DD"
+      }
+    },
+    {
+      "name": "JSON Property Names",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSON Strings",
+      "scope": [
+        "string.quoted.double.json",
+        "string.quoted.single.json",
+        "meta.structure.dictionary.value.json string.quoted.double.json"
+      ],
+      "settings": {
+        "foreground": "#E4D8DD",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Array Binding Pattern Variables",
+      "scope": [
+        "meta.definition.variable.tsx meta.array-binding-pattern-variable.tsx variable.other.constant.tsx"
+      ],
+      "settings": {
+        "foreground": "#E4D8DD"
+      }
+    },
+    {
+      "scope": ["comment", "comment.block.documentation"],
+      "settings": {
+        "foreground": "#756268",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#E8BCC8"
+        "foreground": "#E8BCC8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -208,9 +326,10 @@
       }
     },
     {
-      "scope": ["support.type"],
+      "scope": ["support.type", "entity.name.type", "support.class"],
       "settings": {
-        "foreground": "#C5B3E6"
+        "foreground": "#C5B3E6",
+        "fontStyle": "italic"
       }
     },
     {
@@ -228,7 +347,8 @@
     {
       "scope": ["support.class"],
       "settings": {
-        "foreground": "#E6B3CC"
+        "foreground": "#E6B3CC",
+        "fontStyle": "italic"
       }
     }
   ]

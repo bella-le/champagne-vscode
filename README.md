@@ -2,7 +2,7 @@
 
 There aren't enough nice pink themes anywhere, so here's a sleek and elegant VS Code theme with soft, warm tones inspired by my favorite colors that happen to evoke pink champagne.
 
-## Screenshot
+## Preview
 
 ![Champagne Theme Screenshot](champagne-ss.png)
 
