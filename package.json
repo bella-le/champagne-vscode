@@ -7,12 +7,13 @@
     "engines": {
         "vscode": "^1.75.0"
     },
+    "icon": "champagne-icon.png",
     "categories": [
         "Themes"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/bella-le/theme-name"
+        "url": "https://github.com/bella-le/champagne-vscode"
     },
     "contributes": {
         "themes": [
